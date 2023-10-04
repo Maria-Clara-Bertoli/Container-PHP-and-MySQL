@@ -1,0 +1,16 @@
+version: '3'
+services:
+  php:
+    build: .
+    ports:
+      - "3000:80"
+    volumes:
+      - ./www:/var/www/html
+
+  db:
+    image: mysql
+    volumes:
+      - /var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=123
+      - MYSQL_DATABASE=123
