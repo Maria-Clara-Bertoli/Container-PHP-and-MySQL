@@ -1,4 +1,4 @@
-# 🚢 Desenvolvimento de Container com a linguagem PHP e Conexão com o Banco de Dados MySQL
+# 🚢 Desenvolvimento de Container Com a Linguagem PHP e Conexão Com o Banco de Dados MySQL
 
 Este repositório contém a implementação de um **container** que utiliza a linguagem **PHP** para se comunicar com um banco de dados **MySQL**.  
 
